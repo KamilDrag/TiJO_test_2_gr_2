@@ -3,7 +3,7 @@
     function BrainCandyDetailsCtrl(CandyDAO, $routeParams) {
         var ctrl = this;
         CandyDAO.get($routeParams.id).then(function (data) {
-              if(data !=0 ){
+              if(data !==0 ){
                   ctrl.details = data;
               }
         });
