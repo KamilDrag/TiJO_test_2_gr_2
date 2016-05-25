@@ -30,7 +30,7 @@ var fragments = function (text)
         goodNewsText: element.bind(null, by.id('kamildragcos')),
         abcLabel: element.bind(null, by.id('kamildragtext1')),
         cdeLabel: element.bind(null, by.id('kamildragtext2')),
-        input: ellement.bind(null, by.id('kamildraginput1')),
+        input: element.bind(null, by.id('kamildraginput1')),
     };
 
     return byString(mapping, text);
